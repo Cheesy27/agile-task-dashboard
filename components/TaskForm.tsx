@@ -45,7 +45,7 @@ export default function TaskForm({
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
       <div className="bg-white rounded-2xl shadow-2xl p-6 w-full max-w-md max-h-[90vh] overflow-y-auto">
         <h2 className="text-2xl font-bold text-gray-900 mb-6">
-          {initialData ? "✏️ Edit Task" : "➕ Create New Task"}
+          {initialData ? " Edit Task" : "➕ Create New Task"}
         </h2>
 
         <form onSubmit={handleSubmit} className="space-y-4">
@@ -98,10 +98,10 @@ export default function TaskForm({
               required
               className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
             >
-              <option value="todo">📋 To Do</option>
-              <option value="in-progress">🚧 In Progress</option>
-              <option value="testing">🧪 Testing</option>
-              <option value="done">✅ Done</option>
+              <option value="todo">To Do</option>
+              <option value="in-progress">In Progress</option>
+              <option value="testing">Testing</option>
+              <option value="done">Done</option>
             </select>
           </div>
 

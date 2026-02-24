@@ -112,7 +112,7 @@ export default function Home() {
         <div className="mb-8 flex items-center justify-between">
           <div>
             <h1 className="text-4xl font-bold text-gray-900 mb-2">
-              🎯 Agile Task Dashboard
+              Agile Task Dashboard
             </h1>
             <p className="text-gray-600">Manage your tasks efficiently</p>
           </div>
