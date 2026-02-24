@@ -24,6 +24,8 @@ A task management application I built to learn Next.js, TypeScript, and modern w
 
 ---
 
+![Task Dashboard Screenshot](./screenshot.JPEG)
+
 ## About
 
 I wanted to build something practical while learning the technologies that companies are actually using. This is a full-featured task manager where you can create, edit, and delete tasks with priorities, assignees, and due dates.
