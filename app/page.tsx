@@ -114,7 +114,10 @@ export default function Home() {
             <h1 className="text-4xl font-bold text-gray-900 mb-2">
               Agile Task Dashboard
             </h1>
-            <p className="text-gray-600">Manage your tasks efficiently</p>
+            <p className="text-gray-600">
+              {tasks.length} {tasks.length === 1 ? "task" : "tasks"} •
+              {tasks.filter((t) => t.status === "done").length} completed
+            </p>
           </div>
           <button
             onClick={openCreateForm}
